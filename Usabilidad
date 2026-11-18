@@ -1,0 +1,7 @@
+Agregar un cuadro de busqueda que muestre todas las coincidencias con lo que se está buscando en esa página del panel de admnistración 
+
+La sección de editar usuario que no permita cambiar el password, para eso está Olvidaste tu contraseña vía email 
+
+** Se tiene que mantener los cambios realizados después de realizar el docker compose up -d --build 11/11 aún no se realiza ese cambio
+
+Quiero armar un plan para crear una app móvil con flutter que pueda funcionar para Andriod, Web e IOS   

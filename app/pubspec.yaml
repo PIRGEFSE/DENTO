@@ -1,0 +1,50 @@
+name: dentomax_app
+description: Aplicación de Anatomía Radiográfica Maxilofacial — Universidad de Talca
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Gestión de estado
+  provider: ^6.1.2
+
+  # Almacenamiento local (tokens, progreso)
+  shared_preferences: ^2.3.2
+
+  # Cliente HTTP para consumir el CMS
+  http: ^1.2.2
+
+  # Caché de imágenes (radiografías)
+  cached_network_image: ^3.4.1
+
+  # Visor de imágenes con zoom / pan (modo interactivo de radiografías)
+  photo_view: ^0.14.0
+
+  # Reproducción de video educativo
+  video_player: ^2.9.2
+
+  # Enrutamiento declarativo
+  go_router: ^14.6.1
+
+  # Animaciones fluidas
+  flutter_animate: ^4.5.0
+
+  # Internacionalización y formato de fechas
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets estáticos (logos, placeholders de radiografías)
+  assets:
+    - assets/images/

@@ -1,0 +1,22 @@
+services:
+  cms:
+    build: .
+    ports:
+      - "${CMS_PORT:-3001}:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXTAUTH_SECRET=dentomax-secret-key
+      - NEXTAUTH_URL=http://localhost:${CMS_PORT:-3001}
+      # Directorio donde la API guarda los archivos de imagen subidos.
+      # Apunta al punto de montaje del volumen definido abajo.
+      - UPLOADS_DIR=/app/uploads
+    volumes:
+      # Volumen nombrado persistente: las imágenes sobreviven reinicios y rebuilds.
+      # Docker lo gestiona en /var/lib/docker/volumes/dentomax_uploads/
+      # La app móvil accede a las imágenes vía HTTP: /uploads/<filename>
+      - dentomax_uploads:/app/uploads
+    restart: unless-stopped
+
+# Declaración del volumen nombrado (persiste entre docker-compose down / up)
+volumes:
+  dentomax_uploads:

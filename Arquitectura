@@ -1,0 +1,9 @@
+Necesito desarrollar un sistema de gestión de contenido llamado DentoMax XR con Next.js y React considerando el excelente manejo de estado para editores interactivos de hotspots y tableros analíticos. Se espera que la pantalla de inicio del sistema sea parecida al siguiente archivo Inicio de Sesión.png que incluye el logo que está en el archivo Logo-utalca.jpg todo esto montado en docker compose
+
+y al ingresar con el usuario admin y su contraseña inicio123 nos muestre la siguiente página de inicio Menú Administrador CMS.png y al seleccionar la  
+
+Solo el código, con comentarios. Sin explicaciones adicionales
+
+Necesito que al seleccionar la opción Multimedia cuando se accede al panel de administración con el usuario administrador, que aparezca la opción Nueva Multimedia y que con esta nueva imagen se puede editar sus hotspot anatomicos junto con que ese archivo que se desea cargar se guarde en un contenedor dentro de docker manteniendo  su resolución y considerando que esa imagen se debe mostrar en una aplicación móvil. Además quiero solo el código, con comentarios, sin explicaciones adicionales
+
+Necesito crear un aplicación movil con flutter teniendo en cuenta el documento Dentomax_PDD.pdf. Tengo entendido que para publicar una aplicación móvil necesito credenciales para publicarla ya sea en IOS como en Android así que por el momento solo se pueda trabajar mediante la versión web. Considerar olo el código, con comentarios. Sin explicaciones adicionales

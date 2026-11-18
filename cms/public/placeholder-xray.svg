@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <radialGradient id="xrayGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2a3b4c" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#111822" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#080c10" stop-opacity="1"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#xrayGlow)"/>
+  <rect width="800" height="450" fill="url(#grid)"/>
+  
+  <!-- Estructura molar radiográfica simulada -->
+  <g transform="translate(300, 100) scale(1.3)" opacity="0.75">
+    <path d="M 40 60 C 35 20, 80 15, 100 30 C 120 15, 165 20, 160 60 C 158 90, 145 140, 135 180 C 130 200, 120 220, 115 240 C 110 230, 105 180, 100 160 C 95 180, 90 230, 85 240 C 80 220, 70 200, 65 180 C 55 140, 42 90, 40 60 Z" 
+          fill="#d1d5db" fill-opacity="0.25" stroke="#9ca3af" stroke-width="2" filter="blur(1px)"/>
+    <path d="M 70 65 C 65 95, 75 170, 85 220" fill="none" stroke="#ffffff" stroke-width="2" stroke-opacity="0.6"/>
+    <path d="M 130 65 C 135 95, 125 170, 115 220" fill="none" stroke="#ffffff" stroke-width="2" stroke-opacity="0.6"/>
+    <ellipse cx="100" cy="50" rx="40" ry="15" fill="#f3f4f6" fill-opacity="0.3"/>
+  </g>
+
+  <!-- Datos del paciente simulados -->
+  <text x="30" y="40" font-family="monospace" font-size="12" fill="#6b7280">UTALCA DENTOMAX XR // SIMULACIÓN RADIOGRÁFICA</text>
+  <text x="30" y="60" font-family="monospace" font-size="11" fill="#4b5563">ID: RAD-PERIAPICAL-001 | KV: 70 | mA: 8</text>
+</svg>
+
