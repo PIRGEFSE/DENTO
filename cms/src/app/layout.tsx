@@ -5,7 +5,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'DentoMax XR — CMS',
+  title: 'RX DentoMax — CMS',
   description: 'Panel de Administración y Docencia — Anatomía Radiográfica Maxilofacial',
 };
 

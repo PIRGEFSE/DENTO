@@ -39,7 +39,7 @@ export default function AnaliticasPage() {
             className="text-xs font-semibold tracking-widest uppercase mb-1"
             style={{ color: '#C41E3A' }}
           >
-            Tablero Analítico DentoMax XR
+            Tablero Analítico RX DentoMax
           </p>
           <h1 className="text-3xl font-bold text-white">Métricas de Aprendizaje XR</h1>
           <p className="text-gray-400 text-sm mt-1">
@@ -265,7 +265,7 @@ export default function AnaliticasPage() {
       >
         <div className="flex items-center justify-between">
           <h2 className="text-white font-semibold text-sm">Rendimiento por Unidad Temática</h2>
-          <span className="text-xs text-gray-500">Datos sincronizados con DentoMax XR App</span>
+          <span className="text-xs text-gray-500">Datos sincronizados con RX DentoMax App</span>
         </div>
 
         <div className="overflow-x-auto">
