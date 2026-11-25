@@ -22,7 +22,7 @@
   </g>
 
   <!-- Datos del paciente simulados -->
-  <text x="30" y="40" font-family="monospace" font-size="12" fill="#6b7280">UTALCA DENTOMAX XR // SIMULACIÓN RADIOGRÁFICA</text>
+  <text x="30" y="40" font-family="monospace" font-size="12" fill="#6b7280">UTALCA RX DENTOMAX // SIMULACIÓN RADIOGRÁFICA</text>
   <text x="30" y="60" font-family="monospace" font-size="11" fill="#4b5563">ID: RAD-PERIAPICAL-001 | KV: 70 | mA: 8</text>
 </svg>
 

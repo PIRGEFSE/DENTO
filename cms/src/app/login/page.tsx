@@ -60,7 +60,7 @@ export default function LoginPage() {
 
           {/* Title */}
           <div className="space-y-2">
-            <h1 className="text-5xl font-bold text-white tracking-tight">DentoMax XR</h1>
+            <h1 className="text-5xl font-bold text-white tracking-tight">RX DentoMax</h1>
             <p className="text-gray-400 text-base font-light">Anatomía Radiográfica Maxilofacial</p>
             <div className="w-16 h-px bg-gray-600 mx-auto my-4" />
             <p className="text-xs text-gray-500 tracking-[0.25em] uppercase font-medium">
@@ -151,13 +151,6 @@ export default function LoginPage() {
               {loading ? 'Verificando...' : 'Iniciar Sesión'}
             </button>
           </form>
-
-          {/* Credentials hint */}
-          <div className="p-3 rounded-lg text-xs text-gray-600" style={{ border: '1px solid #1e1e1e' }}>
-            <p className="font-semibold mb-1 text-gray-500">Credenciales de prueba:</p>
-            <p>admin@utalca.cl / admin123</p>
-            <p>docente@utalca.cl / docente123</p>
-          </div>
 
           {/* Forgot password */}
           <div className="text-center">

@@ -24,7 +24,7 @@ export default function Navbar() {
           <div className="w-8 h-8 relative overflow-hidden rounded">
             <Image src="/logo-utalca.png" alt="UTalca" fill className="object-contain" />
           </div>
-          <span className="font-bold text-white text-sm">DentoMax XR</span>
+          <span className="font-bold text-white text-sm">RX DentoMax</span>
           <span className="text-gray-600 text-sm">|</span>
           <span className="text-gray-400 text-xs tracking-widest uppercase font-medium">
             Panel de Administración
